@@ -1,0 +1,24 @@
+limit x = pin 17 / vp / gpio.36
+limit y = pin 18 / vn / gpio.39
+limit z = pin 19 / gpio.34
+hold    = pin 21 / gpio.32
+probe   = pin 22 / gpio.33
+door    = pin 20 / gpio.35
+
+stepx   = pin 11 / gpio.21
+dirx    = pin 7 / tx2 / gpio.17
+
+stepy   = pin 6 / rx2 / gpio.16
+diry    = pin 23 / gpio.25
+
+stepz   = pin 24 / gpio.26
+dirz    = pin 25 / gpio.27
+
+stepa   = pin 15 / gpio.23
+dira    = pin 14 / gpio.22
+
+spindle_pwm = pin 5 / gpio.4
+spindle_dir = pin 8 / gpio.5
+
+flood   = pin 9 / gpio.18
+mist    = pin 10 / gpio.19
